@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "umd",
+        "outDir": "../lib/umd",
+        "lib": ["es5", "es6", "es7", "dom"]
+    }
+}
